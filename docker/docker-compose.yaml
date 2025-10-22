@@ -11,6 +11,7 @@ services:
       - GENERIC_TIMEZONE=${GENERIC_TIMEZONE}
       - TZ=${TZ}
       - N8N_ENCRYPTION_KEY=${N8N_ENCRYPTION_KEY}
+      - N8N_SECURE_COOKIE=${N8N_SECURE_COOKIE}
 
       # DB config (ชี้ไปที่บริการ postgresql ด้านล่าง)
       - DB_TYPE=${DB_TYPE}
